@@ -33,7 +33,9 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier",
+      "stylelint-config-prettier"
     ]
   },
   "browserslist": {
@@ -56,6 +58,7 @@
     "prettier": "^2.6.2",
     "prop-types": "^15.8.1",
     "stylelint": "^14.3.0",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-order": "^5.0.0"
   }
